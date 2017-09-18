@@ -2,7 +2,7 @@
   <div id="app">
     <div class="color-picker-container">
       <div class="color-column">
-        <div class="colors-container" v-for="color in colors" :key="color.color">
+        <div class="color-container" v-for="color in colors" :key="color.color">
           {{color.color}}
         </div>
       </div>
@@ -62,6 +62,18 @@ body {
 
 .color-column {
   flex: 1;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  align-self: center;
+
+  height: 95%;
+}
+
+.color-container {
+  text-align: center;
 }
 
 .color-variations {
