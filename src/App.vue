@@ -56,7 +56,6 @@ body {
 
 .color-column,
 .color-variations {
-  border: 1px solid black;
   height: 100%;
 }
 
