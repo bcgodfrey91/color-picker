@@ -47,9 +47,7 @@ body {
   background: #F8F8FF;
   height: 45rem;
   width: 30rem;
-
   border-radius: 0.5rem;
-
   display: flex;
   flex-direction: row;
 }
@@ -61,13 +59,11 @@ body {
 
 .color-column {
   flex: 1;
-
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
   align-self: center;
-
   height: 95%;
 }
 
