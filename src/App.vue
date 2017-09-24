@@ -2,7 +2,11 @@
   <div id="app">
     <div class="color-picker-container">
       <div class="color-column">
-        <div class="color-container" v-for="color in colors" :key="color.color">
+        <div
+        class="color-container"
+        v-for="color in colors"
+        :key="color.color"
+        @click='fetchColor'>
           {{color.color}}
         </div>
       </div>
@@ -20,6 +24,11 @@ export default {
     return {
       colors: colors.materialColors,
     };
+  },
+  methods: {
+    fetchColor(e) {
+      console.log(e.target.innerText);
+    },
   },
 };
 </script>
