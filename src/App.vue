@@ -55,11 +55,11 @@ body {
 
 .color-picker-container {
   background: #F8F8FF;
+  display: flex;
+  flex-direction: row;
   height: 45rem;
   width: 30rem;
   border-radius: 0.5rem;
-  display: flex;
-  flex-direction: row;
 }
 
 .color-column,
@@ -80,12 +80,18 @@ body {
 .color-container {
   text-align: center;
   border-radius: 50%;
-  width: 25px;
-  height: 25px;
+  width: 1.5625rem;
+  height: 1.5625rem;
+}
+
+.color-container:hover {
+  cursor: pointer;
 }
 
 .color-variations {
   flex: 6;
+
+  border-left: 0.25rem solid #E0E0E0;
 }
 
 </style>
