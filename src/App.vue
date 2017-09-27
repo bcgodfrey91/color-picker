@@ -5,9 +5,10 @@
         <div
         class="color-container"
         v-for="color in colors"
-        :key="color.color"
+        :key="color.colorName"
+        v-bind="{ value: color.colorName }"
+        v-bind:style="{ background: color.colorHex }"
         @click='fetchColor'>
-          {{color.color}}
         </div>
       </div>
       <div class="color-variations"></div>
@@ -27,7 +28,7 @@ export default {
   },
   methods: {
     fetchColor(e) {
-      console.log(e.target.innerText);
+      console.log(e.target.getAttribute('value'));
     },
   },
 };
@@ -78,6 +79,9 @@ body {
 
 .color-container {
   text-align: center;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
 }
 
 .color-variations {

@@ -1,7 +1,8 @@
 {
   "materialColors": [
     {
-      "color": "Red",
+      "colorName": "Red",
+      "colorHex": "#ef5350",
       "variations": [
         {
             "weight": 50,
@@ -46,7 +47,8 @@
     ]
 },
 {
-    "color": "Pink",
+    "colorName": "Pink",
+    "colorHex": "#EC407A",
     "variations": [
         {
             "weight": 50,
@@ -91,7 +93,8 @@
     ]
 },
 {
-    "color": "Purple",
+    "colorName": "Purple",
+    "colorHex": "#AB47BC",
     "variations": [
         {
             "weight": 50,
@@ -136,7 +139,8 @@
     ]
 },
 {
-    "color": "Deep Purple",
+    "colorName": "Deep Purple",
+    "colorHex": "#7E57C2",
     "variations": [
         {
             "weight": 50,
@@ -181,7 +185,8 @@
     ]
 },
 {
-    "color": "Indigo",
+    "colorName": "Indigo",
+    "colorHex": "#5C6BC0",
     "variations": [
         {
             "weight": 50,
@@ -226,7 +231,8 @@
     ]
 },
 {
-    "color": "Blue",
+    "colorName": "Blue",
+    "colorHex": "#42A5F5",
     "variations": [
         {
             "weight": 50,
@@ -271,7 +277,8 @@
     ]
 },
 {
-    "color": "Light Blue",
+    "colorName": "Light Blue",
+    "colorHex": "#29B6F6",
     "variations": [
         {
             "weight": 50,
@@ -316,7 +323,8 @@
     ]
 },
 {
-    "color": "Cyan",
+    "colorName": "Cyan",
+    "colorHex": "#26C6DA",
     "variations": [
         {
             "weight": 50,
@@ -361,7 +369,8 @@
     ]
 },
 {
-    "color": "Teal",
+    "colorName": "Teal",
+    "colorHex": "#26A69A",
     "variations": [
         {
             "weight": 50,
@@ -406,7 +415,8 @@
     ]
 },
 {
-    "color": "Green",
+    "colorName": "Green",
+    "colorHex": "#66BB6A",
     "variations": [
         {
             "weight": 50,
@@ -451,7 +461,8 @@
     ]
 },
 {
-    "color": "Light Green",
+    "colorName": "Light Green",
+    "colorHex": "#9CCC65",
     "variations": [
         {
             "weight": 50,
@@ -496,7 +507,8 @@
     ]
 },
 {
-    "color": "Lime",
+    "colorName": "Lime",
+    "colorHex": "#D4E157",
     "variations": [
         {
             "weight": 50,
@@ -541,7 +553,8 @@
     ]
 },
 {
-    "color": "Yellow",
+    "colorName": "Yellow",
+    "colorHex": "#FFEE58",
     "variations": [
         {
             "weight": 50,
@@ -586,7 +599,8 @@
     ]
 },
 {
-    "color": "Amber",
+    "colorName": "Amber",
+    "colorHex": "#FFCA28",
     "variations": [
         {
             "weight": 50,
@@ -631,7 +645,8 @@
     ]
 },
 {
-    "color": "Orange",
+    "colorName": "Orange",
+    "colorHex": "#FFA726",
     "variations": [
         {
             "weight": 50,
@@ -676,7 +691,8 @@
     ]
 },
 {
-    "color": "Deep Orange",
+    "colorName": "Deep Orange",
+    "colorHex": "#FF7043",
     "variations": [
         {
             "weight": 50,
@@ -721,7 +737,8 @@
     ]
 },
 {
-    "color": "Brown",
+    "colorName": "Brown",
+    "colorHex": "#8D6E63",
     "variations": [
         {
             "weight": 50,
@@ -766,7 +783,8 @@
     ]
 },
 {
-    "color": "Grey",
+    "colorName": "Grey",
+    "colorHex": "#BDBDBD",
     "variations": [
         {
             "weight": 50,
@@ -811,7 +829,8 @@
     ]
 },
 {
-    "color": "Blue Grey",
+    "colorName": "Blue Grey",
+    "colorHex": "#78909C",
     "variations": [
         {
             "weight": 50,
